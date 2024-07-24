@@ -4,4 +4,6 @@ hf_model/
 __pycache__/
 .cache
 temp
-.streamlit
+.streamlit/
+file/
+.vscode/
