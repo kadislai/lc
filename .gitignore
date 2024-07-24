@@ -1,0 +1,7 @@
+env/
+.env
+hf_model/
+__pycache__/
+.cache
+temp
+.streamlit

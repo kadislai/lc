@@ -1,0 +1,32 @@
+1. ChatGPT plus 유료 (비용 발생)
+2. platform.openai.com (비용 발생)
+ - 신용카드 등록
+ - View API keys
+ - limit 바뀜
+ - Hard limit : 차단 
+ - Soft limit : 알림
+ 
+ # lc - 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
+
+
+VENV
+ ubuntu python 3.11 설치
+ https://www.debugpoint.com/install-python-3-11-ubuntu/
+
+ python -m venv --without-pip venv
+ source ./env/bin/activate
+ curl https://bootstrap.pypa.io/get-pip.py | python3.11
+ pip3.11 install -r requirements.txt
+
+ .env 파일 생성 후 OPENAI_API_KEY 입력
+ .gitignore에 .env 꼭 추가 중요!!
+ 
+
+3.2 Prompt Templates
+
+3.3 Output Parser, LCEL
+
+3.4 Chaining Chains 
+ - LCEL Interface
+   - https://python.langchain.com/docs/expression_language/interface
+ 
